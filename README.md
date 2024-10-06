@@ -158,3 +158,14 @@ aws cloudformation delete-stack --stack-name trial_sam_8
 For an introduction to the AWS SAM specification, the AWS SAM CLI, and serverless application concepts, see the [AWS SAM Developer Guide](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html).
 
 Next, you can use the AWS Serverless Application Repository to deploy ready-to-use apps that go beyond Hello World samples and learn how authors developed their applications. For more information, see the [AWS Serverless Application Repository main page](https://aws.amazon.com/serverless/serverlessrepo/) and the [AWS Serverless Application Repository Developer Guide](https://docs.aws.amazon.com/serverlessrepo/latest/devguide/what-is-serverlessrepo.html).
+
+## Local Test
+
+when you do lambda local test, following snipet is practical.
+
+```bash
+sam local start-api --env-vars locals.json
+sam local invoke <function id> --env-vars locals.json --event events/event-*-.json
+```
+sam official document is covering this topic.
+[Introduction to testing with sam local invoke](https://docs.aws.amazon.com/ja_jp/serverless-application-model/latest/developerguide/using-sam-cli-local-invoke.html)
