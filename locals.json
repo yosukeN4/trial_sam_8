@@ -1,0 +1,11 @@
+{
+    "getAllItemsFunction": {
+        "SAMPLE_TABLE": "dev-demo-SampleTable-1U9"
+    },
+    "getByIdFunction": {
+        "SAMPLE_TABLE": "dev-demo-SampleTable-1U9"
+    },
+    "putItemFunction": {
+        "SAMPLE_TABLE": "dev-demo-SampleTable-1U9"
+    }
+}

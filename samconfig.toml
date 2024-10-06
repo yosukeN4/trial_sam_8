@@ -4,7 +4,7 @@ version = 0.1
 
 [default]
 [default.global.parameters]
-stack_name = "sam-rehabili"
+stack_name = "trial-sam-8"
 
 [default.build.parameters]
 cached = true
